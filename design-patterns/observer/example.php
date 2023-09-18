@@ -46,7 +46,7 @@ class Login implements Publisher
     public function fire()
     {
         // perform the login and notify any subscribers
-        $this->notify()
+        $this->notify();
     }
 }
 
